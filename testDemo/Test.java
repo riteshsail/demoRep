@@ -1,8 +1,13 @@
 class Test
 {
+	String classVariable=null;
+	
 	public static void main(String args)
+	
 	{
-		System.out.println("Test Class1");
+		classVariable="Test";
+		System.out.println("Test Class ::" +classVariable);
+		
 	}
 
 }
