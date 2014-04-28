@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="testDemo" default="info3" basedir=".">
+	<description>Test build script for Jenkins</description>
+		<property name="src" location=""/>
+		<property name="propertyName" value="propertyValue" />
+	<target name="info">
+		<description>Info has some description now</description>
+		<echo>Welcome to Test Ant Script for Jenkins0! ${propertyName}</echo>
+	</target>
+
+
+	<target name="info1">
+		<description>Info1 has some description now</description>
+		<echo>Welcome to Test Ant Script for Jenkins1! ${propertyName}</echo>
+	</target>
+
+
+	<target name="info2">
+		<description>Info2 has some description now</description>
+		<echo>Welcome to Test Ant Script for Jenkins2! ${propertyName}</echo>
+	</target>
+
+
+	<target name="info3" depends="info1,info2,info">
+		<description>Info3 has some description now</description>
+		<echo>Welcome to Test Ant Script Info 3 which is default target  for Jenkins3! ${propertyName}</echo>
+	</target>
+</project>
