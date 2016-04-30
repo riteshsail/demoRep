@@ -2,7 +2,7 @@ class Test
 {
 	public static void main(String args)
 	{
-		System.out.println("Test Class for Jenkins");
+		System.out.println("Test Class for Jenkins after hook");
 	}
 
 }
