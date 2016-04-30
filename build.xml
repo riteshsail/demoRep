@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="testDemo" default="info3" basedir=".">
-	<description>Test build script for Jenkins</description>
+	<description>Test build script for Jenkins on my laptop</description>
 		<property name="src" location=""/>
 		<property name="propertyName" value="propertyValue" />
 	<target name="info">
